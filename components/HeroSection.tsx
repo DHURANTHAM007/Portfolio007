@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const ArcReactor: React.FC = () => (
@@ -50,9 +49,9 @@ const HeroSection: React.FC = () => {
           <div className="absolute -inset-2.5 rounded-full bg-gradient-to-br from-red-600 to-yellow-400 opacity-50 blur-2xl"></div>
           <div className="relative h-64 w-64 md:h-80 md:w-80">
             <img 
-              src="https://dhurantham007.github.io/Portfolio/Profile%20Picture.jpeg"
+              src="./Profile Picture.jpeg"
               alt="Anjosh J A" 
-              className="h-full w-full rounded-full object-cover border-4 border-slate-700"
+              className="h-full w-full rounded-full object-cover"
             />
             <div className="absolute inset-0 flex items-center justify-center bg-black/50 rounded-full opacity-0 hover:opacity-100 transition-opacity duration-300">
               <ArcReactor />
