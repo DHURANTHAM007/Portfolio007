@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #0f0f0f;
+  color: #fff;
+}
+
+.app {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.header {
+  background: linear-gradient(to right, #ff0000, #ffcc00);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 30px rgba(255, 0, 0, 0.3);
+}
+
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #ffcc00;
+  margin-bottom: 20px;
+}
+
+.tagline {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #ffd700;
+}
