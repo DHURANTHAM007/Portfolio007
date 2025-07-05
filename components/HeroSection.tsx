@@ -49,7 +49,7 @@ const HeroSection: React.FC = () => {
           <div className="absolute -inset-2.5 rounded-full bg-gradient-to-br from-red-600 to-yellow-400 opacity-50 blur-2xl"></div>
           <div className="relative h-64 w-64 md:h-80 md:w-80">
             <img 
-              src="./Profile Picture.jpeg"
+              src="/Portfolio007/Profile Picture.jpeg"
               alt="Anjosh J A" 
               className="h-full w-full rounded-full object-cover"
             />
