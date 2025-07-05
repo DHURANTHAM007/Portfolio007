@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Project, Skill, SocialLink } from './types';
 
@@ -62,21 +61,24 @@ export const PROJECTS_DATA: Project[] = [
     title: 'CineVerse',
     description: 'A dynamic, user-focused blog platform for movie reviews and film analysis, built with a modern tech stack.',
     tags: ['React', 'Firebase', 'Tailwind CSS', 'Content'],
-    image: 'https://picsum.photos/seed/cineverse/500/300',
-    repoUrl: 'https://github.com/DHURANTHAM007',
+    image: './images/cineverse.jpg',
+    liveUrl: 'https://dhurantham007.github.io/CineVerse',
+    repoUrl: 'https://github.com/DHURANTHAM007/CineVerse',
   },
   {
     title: 'ScriptCraft',
     description: 'A real-time collaborative screenwriting tool designed to streamline the creative process for writers.',
     tags: ['TypeScript', 'WebSockets', 'Node.js', 'Collaboration'],
-    image: 'https://picsum.photos/seed/scriptcraft/500/300',
-    repoUrl: 'https://github.com/DHURANTHAM007',
+    image: './images/scriptcraft.jpg',
+    liveUrl: 'https://dhurantham007.github.io/ScriptCraft',
+    repoUrl: 'https://github.com/DHURANTHAM007/ScriptCraft',
   },
   {
     title: 'DevFolio',
     description: 'An intuitive portfolio builder for developers, leveraging Figma designs to create pixel-perfect, responsive websites.',
     tags: ['Next.js', 'Figma', 'Vercel', 'UI/UX'],
-    image: 'https://picsum.photos/seed/devfolio/500/300',
-    repoUrl: 'https://github.com/DHURANTHAM007',
+    image: './images/devfolio.jpg',
+    liveUrl: 'https://dhurantham007.github.io/DevFolio',
+    repoUrl: 'https://github.com/DHURANTHAM007/DevFolio',
   },
 ];
